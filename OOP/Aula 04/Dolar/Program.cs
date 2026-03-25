@@ -17,4 +17,5 @@ double quantidade = double.Parse(ReadLine());
 ResetColor();
 
 WriteLine($"Valor a ser pago em reais: {Converter(cotacao, quantidade)}");
+ReadKey();
 
