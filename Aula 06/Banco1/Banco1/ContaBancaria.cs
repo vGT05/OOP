@@ -32,10 +32,7 @@ namespace Banco1
 		{
 			get { return numero; }
 			set { 
-					if (Max)  
-				
-				
-						numero = value; 
+					numero = value; 
 				}
 		}
 
