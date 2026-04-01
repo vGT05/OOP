@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\bin\Debug\net10.0\AtividadeHerança.exe
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\bin\Debug\net10.0\AtividadeHerança.deps.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\bin\Debug\net10.0\AtividadeHerança.runtimeconfig.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\bin\Debug\net10.0\AtividadeHerança.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\bin\Debug\net10.0\AtividadeHerança.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.AssemblyInfo.cs
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.sourcelink.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\refint\AtividadeHerança.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\AtividadeHerança.genruntimeconfig.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 07\AtividadeHerança\AtividadeHerança\obj\Debug\net10.0\ref\AtividadeHerança.dll
