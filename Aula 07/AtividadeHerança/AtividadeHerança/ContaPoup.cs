@@ -1,4 +1,5 @@
-﻿namespace AtividadeHerança
+﻿using static System.Console;
+namespace AtividadeHerança
 {
     internal class ContaPoup : Conta
     {
@@ -29,6 +30,14 @@
             SaldoConta -= quantia;
         }
 
+        public override string ToString()
+        {
+            return $"Dados do cliente.\n" +
+                $"\n\tNome: {TitularConta}" +
+                $"\n\tNúmero: {NumeroConta}" +
+                $"\n\tSaldo: {SaldoConta}" +
+                $"\n\tTaxa de Juros: {TaxaDeJuros}%";
+        }
 
 
 

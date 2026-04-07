@@ -20,7 +20,8 @@
             Console.WriteLine($"Dados do Cliente: \n" +
                 $"\tNome: {DadosCliente}\n +" +
                 $"\tNumero: {NumeroConta}\n" +
-                $"Saldo: {SaldoConta:C}");
+                $"\t\nSaldo: {SaldoConta:C}" +
+                $"Rendimento: {rendimento}%");
         }
 	}
 }

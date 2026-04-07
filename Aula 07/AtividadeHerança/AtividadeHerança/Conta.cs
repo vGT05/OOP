@@ -47,6 +47,14 @@ namespace AtividadeHerança
             //sealed faz o oposto, permite que o código não possa ser sobreescrito de qualquer maneira
             saldo -= quantia + 5.00;
         }
+            
+        public void Consulta()
+        {
+            WriteLine($"Dados do cliente.\n" +
+                $"\n\tNome: {TitularConta}" +
+                $"\n\tNúmero: {NumeroConta}" +
+                $"\n\tSaldo: {SaldoConta:C}");
+        }
 
 
 
