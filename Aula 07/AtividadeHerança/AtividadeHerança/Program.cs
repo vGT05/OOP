@@ -27,7 +27,7 @@ switch (opcao)
         {
             conta = new Conta(numero, titular);
         }
-        conta.Consulta();
+        WriteLine(conta.ToString());
         
         WriteLine("Deseja fazer um saque?(s/n)");
         WriteLine("(O saque tem uma taxa fixa de R$5.00)");
@@ -37,7 +37,7 @@ switch (opcao)
             Write("Digite o valor do saque: ");
             double saque = double.Parse(ReadLine());
             conta.Saque(saque);
-            conta.Consulta();
+            WriteLine(conta.ToString());
         }
         break;
     
@@ -60,7 +60,7 @@ switch (opcao)
             poupanca = new ContaPoup(titular, numero, deposito, taxa);
             
             poupanca.AtualizacaoDeSaldo();
-            poupanca.ToString();
+            poupanca.Consulta();
         }
         else
         {
@@ -68,6 +68,7 @@ switch (opcao)
             poupanca = new ContaPoup(titular, numero, taxa);
         }
 
+        
         WriteLine("Deseja fazer um saque?(s/n)");
         char escolha4 = char.Parse(ReadLine().ToLower());
         if (escolha4 == 's')
@@ -76,6 +77,41 @@ switch (opcao)
             double saque = double.Parse(ReadLine());
             poupanca.Saque(saque);
             poupanca.Consulta();
+        }
+        break;
+    case 3:
+        ContaEmp empresa;
+        Write("Digite o titular da conta: ");
+        titular = ReadLine();
+        Write("Digite o numero da conta: ");
+        numero = int.Parse(ReadLine());
+        WriteLine("Deseja fazer um depósito inicial? (s/n)");
+        char escolha5 = char.Parse(ReadLine().ToLower());
+        if (escolha5 == 's')
+        {
+            Write("Digite o valor do depósito: ");
+            double deposito = double.Parse(ReadLine());
+
+            Write("Digite o valor do limite de empréstimo: ");
+            double limite = double.Parse(ReadLine());
+
+            empresa = new ContaEmp(numero, titular, deposito, limite);   
+        }
+        else
+        {
+            double limite = 0;
+            empresa = new ContaEmp(numero, titular, limite);
+        }
+        WriteLine(empresa.ToString());
+
+        WriteLine("Deseja fazer um empréstimo(s/n)");
+        char escolha6 = char.Parse(ReadLine().ToLower());
+        if (escolha6 == 's')
+        {
+            Write("Digite o valor do empréstimo: ");
+            double emprestimo = double.Parse(ReadLine());
+            empresa.Emprestimo(emprestimo);
+            WriteLine(empresa.ToString());
         }
         break;
 }

@@ -48,12 +48,12 @@ namespace AtividadeHerança
             saldo -= quantia + 5.00;
         }
             
-        public void Consulta()
+        public override string ToString()
         {
-            WriteLine($"Dados do cliente.\n" +
+            return $"Dados do cliente.\n" +
                 $"\n\tNome: {TitularConta}" +
                 $"\n\tNúmero: {NumeroConta}" +
-                $"\n\tSaldo: {SaldoConta:C}");
+                $"\n\tSaldo: {SaldoConta:C}";
         }
 
 

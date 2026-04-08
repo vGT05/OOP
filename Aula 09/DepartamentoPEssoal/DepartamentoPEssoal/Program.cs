@@ -32,9 +32,10 @@ for (int i = 0;  i < n; i++)
         double d = double.Parse(ReadLine());    
         colaboradores.Add(new Terceiro(nome, h, v, d));
     }
-    WriteLine("-Pagamentos-");
+}
+    
+WriteLine("-Pagamentos-");
     foreach (var colab in colaboradores)
     {
-        colaboradores[colab].ToString();
+        WriteLine(colab.ToString());
     }
-}

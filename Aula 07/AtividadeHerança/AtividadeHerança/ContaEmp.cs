@@ -5,8 +5,8 @@
         private double limite;
         public double LimiteEmp
         {
-            get { return LimiteEmp; }
-            set { LimiteEmp = value; }
+            get { return limite; }
+            set { limite = value; }
         }
 
         public ContaEmp(int numeroConta, string titularConta, double limiteEmp) : base(numeroConta, titularConta)
@@ -28,7 +28,14 @@
             SaldoConta += quantia;
         }
 
-
+        public override string ToString()
+        {
+            return $"Dados do cliente.\n" +
+                $"\n\tNome: {TitularConta}" +
+                $"\n\tNúmero: {NumeroConta}" +
+                $"\n\tSaldo: {SaldoConta:C}" +
+                $"\n\tLimite de Empréstimo: {limite:C}";
+        }
 
 
 

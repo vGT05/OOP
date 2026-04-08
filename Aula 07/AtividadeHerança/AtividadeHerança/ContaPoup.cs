@@ -8,7 +8,7 @@ namespace AtividadeHerança
         public double TaxaDeJuros
         {
             get { return taxa; }
-            set { taxa = 0; }
+            set { taxa = value; }
         }
 
         public ContaPoup(string titularConta, int numeroConta, double Taxadd) : base(numeroConta, titularConta)
@@ -22,7 +22,7 @@ namespace AtividadeHerança
 
         public void AtualizacaoDeSaldo()
         {
-            SaldoConta = SaldoConta + (SaldoConta * TaxaDeJuros);
+            SaldoConta = SaldoConta + (SaldoConta * (TaxaDeJuros/100));
         }
 
         public override void Saque(double quantia)
@@ -30,13 +30,13 @@ namespace AtividadeHerança
             SaldoConta -= quantia;
         }
 
-        public override string ToString()
+        public virtual void Consulta()
         {
-            return $"Dados do cliente.\n" +
+            WriteLine("Dados do cliente.\n" +
                 $"\n\tNome: {TitularConta}" +
                 $"\n\tNúmero: {NumeroConta}" +
-                $"\n\tSaldo: {SaldoConta}" +
-                $"\n\tTaxa de Juros: {TaxaDeJuros}%";
+                $"\n\tSaldo: {SaldoConta:C}" +
+                $"\n\tTaxa de Juros: {TaxaDeJuros}%");
         }
 
 
