@@ -20,5 +20,26 @@ for (int i = 0; i < qtd; i++)
             "\n\t3 - Amarelo" +
             "\n\t4 - Rosa");
         int cor = int.Parse(ReadLine());
+        Write("Digite a largura do retângulo: ");
+        double l = double.Parse(ReadLine());
+        Write("Digite a altura do retângulo: ");
+        double a = double.Parse(ReadLine());
+        formas.Add(new Retangulo((Cor)cor, l, a));
     }
+    else if (escolha == 'c')
+    {
+        WriteLine("Qual é a cor do objeto?" +
+            "\n\t1 - Vermelho" +
+            "\n\t2 - Azul" +
+            "\n\t3 - Amarelo" +
+            "\n\t4 - Rosa");
+        int cor = int.Parse(ReadLine());
+        Write("Digite o raio da circunferência: ");
+        double r = double.Parse(ReadLine());
+        formas.Add(new Circulo((Cor)cor, r));
+    }
+}
+foreach (var figurinhas in formas)
+{
+    Write(figurinhas.ToString());
 }
