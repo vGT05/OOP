@@ -1,7 +1,7 @@
 ﻿
-using Contribuentes.Classes.Contratos;
+using Abstraction.Classes.Contratos;
 
-namespace Contribuentes.Classes.Entidades
+namespace Abstraction.Classes.Entidades
 {
     abstract internal class Contribuentes : IImposto
     {
@@ -24,6 +24,6 @@ namespace Contribuentes.Classes.Entidades
             RendaAnual = rendaAnual;
         }
 
-        public abstract void Imposto();
+        public abstract double Imposto();
     }
 }

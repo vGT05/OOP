@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\bin\Debug\net10.0\Abstraction.exe
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\bin\Debug\net10.0\Abstraction.deps.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\bin\Debug\net10.0\Abstraction.runtimeconfig.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\bin\Debug\net10.0\Abstraction.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\bin\Debug\net10.0\Abstraction.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.AssemblyInfo.cs
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.sourcelink.json
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\refint\Abstraction.dll
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.pdb
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\Abstraction.genruntimeconfig.cache
+C:\Users\FIC\Documents\CSharp2026\POO\Aula 11\Contribuentes\Contribuentes\obj\Debug\net10.0\ref\Abstraction.dll

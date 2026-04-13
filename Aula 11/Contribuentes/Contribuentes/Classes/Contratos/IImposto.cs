@@ -1,8 +1,8 @@
 ﻿
-namespace Contribuentes.Classes.Contratos
+namespace Abstraction.Classes.Contratos
 {
     internal interface IImposto
     {
-        public void Imposto();
+        public double Imposto();
     }
 }

@@ -1,7 +1,5 @@
 ﻿
-using Contribuentes.Classes.Contratos;
-
-namespace Contribuentes.Classes.Entidades
+namespace Abstraction.Classes.Entidades
 {
     internal class PJ : Contribuentes
     {
@@ -17,19 +15,20 @@ namespace Contribuentes.Classes.Entidades
         {
             NumeroFuncionarios = numeroFuncionarios;
         }
-
-        public override void Imposto()
+        public override double Imposto()
         {
+            double taxa;
+
             if (funcionarios < 10)
             {
-                double imposto = RendaAnual * (16 / 100);
-                return;
+                taxa = 0.16;
             }
-            else if (funcionarios > 10)
+            else
             {
-                double imposto = RendaAnual * (14 / 100);
-                return;
+                taxa = 0.14;
             }
+
+            return RendaAnual * taxa;
         }
     }
 }
